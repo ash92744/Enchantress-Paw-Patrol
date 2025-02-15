@@ -1,0 +1,13 @@
+/* PetList.css */
+.PetList {
+    padding: 2rem 0;
+    background-color: white; /* White background */
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+.col-lg-4 {
+    padding: 15px;
+}

@@ -1,0 +1,23 @@
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: fixed; /* Keeps navbar fixed at the top */
+    top: 0; /* Align to the top of the page */
+    left: 0; /* Align to the left */
+    width: 100%; /* Ensure it spans the full width */
+    z-index: 1000; /* Keeps it above all other content */
+    background-color: #000; /* Consistent with 'bg="black"' in React-Bootstrap */
+    color: #fff; /* White text to match */
+}
+
+.navbar-brand img {
+    transition: transform 0.3s ease; /* Smooth hover effect */
+    height: 40px; /* Fix image height for consistency */
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1); /* Slight zoom-in effect */
+}

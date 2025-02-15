@@ -1,0 +1,76 @@
+/* PetCard.css */
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 2rem;
+    background-color: white; /* White background */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #092744; /* Dark blue */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+#t{
+    color: white;
+}
+
+.card-footer {
+    background-color: #092744; /* Dark blue */
+    border-top: none;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #927440; /* Gold */
+    border: none;
+    color: white; /* White text */
+}
+
+.btn-primary:hover {
+    background-color: #7a5f36; /* Darker gold */
+}
+
+.btn-secondary {
+    background-color: #666; /* Gray */
+    border: none;
+    color: white; /* White text */
+}
+
+.btn-secondary:hover {
+    background-color: #555; /* Darker gray */
+}

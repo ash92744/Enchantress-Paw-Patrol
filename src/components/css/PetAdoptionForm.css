@@ -1,0 +1,54 @@
+/* PetAdoptionForm.css */
+.PetAdoptionForm {
+    padding: 2rem 0;
+    background-color: white; /* White background */
+}
+
+.PetAdoptionForm .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.PetAdoptionForm .form-label {
+    font-weight: 600;
+    color: #092744; /* Dark blue */
+}
+
+.PetAdoptionForm .form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 0.75rem;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.PetAdoptionForm .form-control:focus {
+    border-color: #927440; /* Gold */
+    box-shadow: 0 0 0 0.2rem rgba(146, 116, 64, 0.25); /* Gold shadow */
+}
+
+.PetAdoptionForm .form-check {
+    margin-bottom: 1rem;
+}
+
+.PetAdoptionForm .btn-primary {
+    background-color: #092744; /* Gold */
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.PetAdoptionForm .btn-primary:hover {
+    background-color: #7a5f36; /* Darker gold */
+}
+
+.PetAdoptionForm .alert {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: #092744; /* Dark blue */
+    color: white; /* White text */
+}
